@@ -1,0 +1,107 @@
+---
+title: "Report 3: Condimentum Feature Showcase"
+subtitle: "Cras justo odio dapibus ac facilisis"
+author: "Nomen Nescio"
+date: last-modified
+---
+
+<!-- Showcase report: tabsets, callouts, figures, cross-references, columns. -->
+
+## Abstract
+
+_Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus [@sit2023]._
+
+```{python}
+#| label: setup
+#| include: false
+
+import pandas as pd
+import numpy as np
+import _common as C
+
+bundle = C.build_everything()
+raw = bundle["raw"]
+results = bundle["results"]
+```
+
+## Tabbed Panels
+
+::: {.panel-tabset}
+
+### Lorem
+
+```{python}
+#| code-summary: "Show the code"
+raw.head(8)
+```
+
+### Ipsum
+
+```{python}
+#| code-summary: "Show the code"
+raw.groupby("category")["value"].describe().round(1)
+```
+
+### Dolor
+
+```{python}
+#| code-summary: "Show the code"
+results.sort_values("avg_actual", ascending=False).head(8)
+```
+
+:::
+
+## Figures
+
+_Integer posuere erat a ante venenatis dapibus posuere velit aliquet. See
+@fig-distribution below._
+
+```{python}
+#| label: fig-distribution
+#| fig-cap: "Vestibulum id ligula porta felis euismod semper."
+#| code-summary: "Show the plotting code"
+
+if C.HAS_MATPLOTLIB:
+    import matplotlib.pyplot as plt
+    fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+    axes[0].hist(raw["value"], bins=40, color="#4c72b0", edgecolor="white")
+    axes[0].set_title("Raw scale")
+    axes[1].hist(np.log1p(raw["value"]), bins=40, color="#dd8452", edgecolor="white")
+    axes[1].set_title("Log scale")
+    for ax in axes:
+        ax.set_ylabel("Count")
+    fig.tight_layout()
+    fig
+else:
+    print("Install matplotlib to render this figure.")
+```
+
+## Callouts
+
+::: {.callout-note collapse="true"}
+## Expandable Note
+Donec ullamcorper nulla non metus auctor fringilla.
+:::
+
+::: {.callout-warning}
+## Warning
+Maecenas sed diam eget risus varius blandit sit amet non magna.
+:::
+
+## Side Margin Content
+
+_Fusce dapibus tellus ac cursus commodo.^[Nulla vitae elit libero, a pharetra
+augue.]_
+
+::: {.column-margin}
+Cras mattis consectetur purus sit amet fermentum.
+:::
+
+_Aenean lacinia bibendum nulla sed consectetur. Return to
+[Home](index.qmd)._
+
+## References
+
+::: {#refs}
+:::

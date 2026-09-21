@@ -1,0 +1,76 @@
+---
+title: "Lorem Ipsum Analytica"
+subtitle: "Vestibulum ante ipsum primis in faucibus orci luctus"
+author: "Nomen Nescio"
+date: last-modified
+---
+
+<!-- LANDING PAGE. Replace with a project overview. -->
+
+## Praesent Commodo
+
+_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur._
+
+::: {.callout-note}
+## Nota Bene
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+deserunt mollit anim id est laborum.
+:::
+
+## Curabitur Blandit
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### [Report 1](report-1.qmd)
+_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+doloremque laudantium totam rem aperiam._
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [Report 2](report-2.qmd)
+_Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
+sed quia consequuntur magni dolores._
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [Report 3](report-3.qmd)
+_Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur
+adipisci velit sed quia non numquam._
+:::
+
+:::
+
+## Integer Posuere
+
+_Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+nulla pariatur [@lorem2020]. At vero eos et accusamus et iusto odio
+dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+corrupti quos dolores et quas molestias excepturi sint [@ipsum2021]._
+
+```{python}
+#| label: environment-check
+#| code-summary: "Show the environment check"
+
+# Confirms the shared engine imports and reports which optional
+# packages are active. Handy first stop when a render misbehaves.
+import _common as C
+
+print(f"Optional packages")
+print(f"  xgboost     : {'installed' if C.HAS_XGBOOST else 'absent (using scikit-learn)'}")
+print(f"  folium      : {'installed' if C.HAS_FOLIUM else 'absent (using matplotlib)'}")
+print(f"  matplotlib  : {'installed' if C.HAS_MATPLOTLIB else 'absent'}")
+print(f"\nAll data is generated in-process. No files or network required.")
+```
+
+## Aliquam Erat
+
+_Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
+cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
+repellendus._

@@ -1,0 +1,127 @@
+---
+title: "Report 1: Fermentum Tincidunt Analysis"
+subtitle: "Lorem ipsum dolor sit amet consectetur"
+author: "Nomen Nescio"
+date: last-modified
+---
+
+<!-- Mirrors the structure of the original: abstract, framing, data sample. -->
+
+## Abstract
+
+_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur excepteur sint occaecat._
+
+## Vestibulum Rutrum
+
+__Quis nostrud exercitation ullamco laboris nisi?__
+
+_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+veritatis et quasi architecto beatae vitae dicta sunt explicabo [@lorem2020].
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+consectetur, adipisci velit [@ipsum2021]. Ut enim ad minima veniam, quis
+nostrum exercitationem ullam corporis suscipit laboriosam._
+
+_Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+Here are the attributes carried by the working dataset:_
+
+- _`zone_code` — dolor sit amet_
+- _`metric_a` — consectetur adipiscing_
+- _`metric_b` — sed do eiusmod_
+- _`count_a` — tempor incididunt_
+- _`count_b` — ut labore et dolore_
+- _`category` — magna aliqua enim_
+- _`value` — ad minim veniam quis_
+
+## Nullam Quis Risus
+
+_Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
+repellat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Sample of the generated data below:_
+
+```{python}
+#| label: load-data
+#| code-summary: "Show the data generation"
+
+import pandas as pd
+import numpy as np
+import _common as C
+
+# Generated in-process from a fixed seed -- no CSV, no download.
+# Swap this line for pd.read_csv("your_file.csv") to use real data.
+raw = C.make_records()
+
+raw.head(10)
+```
+
+## Donec Ullamcorper
+
+_Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit
+amet fermentum. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac
+consectetur ac, vestibulum at eros. Summary statistics follow:_
+
+```{python}
+#| label: summary-stats
+#| code-summary: "Show the summary statistics"
+
+raw.describe().round(2)
+```
+
+```{python}
+#| label: category-counts
+#| code-summary: "Show the category breakdown"
+
+breakdown = (
+    raw.groupby("category")
+       .agg(n=("value", "size"),
+            mean_value=("value", "mean"),
+            median_value=("value", "median"))
+       .round(2)
+       .sort_values("n", ascending=False)
+       .reset_index()
+)
+breakdown
+```
+
+## Aenean Lacinia
+
+_Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. The target
+variable is transformed as follows (where `x` is the raw value):_
+
+$$
+\text{target} = \log\left(1 + x\right)
+$$
+
+_Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis
+mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+sem nec elit. The transformation compresses the upper tail, which keeps
+downstream colour scales legible:_
+
+```{python}
+#| label: transform
+#| code-summary: "Show the transformation"
+
+comparison = pd.DataFrame({
+    "raw_value": raw["value"],
+    "log_value": np.log1p(raw["value"]).round(4),
+})
+comparison.describe().round(2)
+```
+
+::: {.callout-tip}
+## Suspendisse Potenti
+Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+ultricies vehicula ut id elit.
+:::
+
+_Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis
+dapibus posuere velit aliquet. Continue to [Report 2](report-2.qmd)._

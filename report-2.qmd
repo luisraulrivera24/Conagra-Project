@@ -1,0 +1,147 @@
+---
+title: "Report 2: Gravida Euismod Modelling"
+subtitle: "Sed posuere consectetur est at lobortis"
+author: "Nomen Nescio"
+date: last-modified
+---
+
+<!-- Modelling report: prep, fit, evaluate, map. -->
+
+## Abstract
+
+_Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean
+lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis
+euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam
+[@dolor2022]. Nullam quis risus eget urna mollis ornare vel eu leo._
+
+```{python}
+#| label: pipeline
+#| include: false
+
+# Runs the whole pipeline once, quietly. Later chunks reuse these objects.
+import pandas as pd
+import numpy as np
+import _common as C
+
+bundle = C.build_everything()
+frame = bundle["frame"]
+fit = bundle["fit"]
+results = bundle["results"]
+geojson = bundle["geojson"]
+metrics = fit["metrics"]
+```
+
+```{python}
+#| label: overview-map
+#| code-summary: "Show the map code"
+
+# Side-by-side predicted vs actual. Uses folium when available and falls
+# back to a static matplotlib rendering when it is not.
+C.dual_map(results, geojson)
+```
+
+## Fusce Dapibus
+
+_Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
+a ante venenatis dapibus posuere velit aliquet. Geographic descriptors are
+derived before the geometry is discarded, since the model consumes numeric
+features only:_
+
+```{python}
+#| label: prepared-frame
+#| code-summary: "Show the prepared frame"
+
+frame.head(10)
+```
+
+## Etiam Porta
+
+_Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+amet risus. The split reserves twenty percent for evaluation, with a fixed
+random state so the run reproduces exactly:_
+
+```{python}
+#| label: features
+#| code-summary: "Show the feature matrix"
+
+print("Feature matrix sample:")
+fit["X"].drop(columns=["zone_code"]).head(10)
+```
+
+```{python}
+#| label: target
+#| code-summary: "Show the target variable"
+
+print("Target variable sample (log scale):")
+fit["y"].head(10)
+```
+
+## Nulla Vitae
+
+_Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est
+at lobortis. Let us walk the evaluation metrics._
+
+_Mean Squared Error averages the squared gaps between predicted and observed
+values, which makes it sensitive to outliers:_
+
+$$
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+$$
+
+_Root Mean Squared Error returns those units to the scale of the target:_
+
+$$
+\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
+$$
+
+_Mean Absolute Error averages the magnitude of the error while ignoring its
+direction:_
+
+$$
+\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right|
+$$
+
+_And the coefficient of determination reports the share of variance in the
+target explained by the features, bounded at one:_
+
+$$
+R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
+$$
+
+_Cras mattis consectetur purus sit amet fermentum. Results below are printed
+from the fitted object rather than typed into the prose, so the narrative can
+never drift out of step with the numbers:_
+
+```{python}
+#| label: metrics
+#| code-summary: "Show the metrics"
+
+print(f"Engine used                     : {fit['engine']}")
+print(f"Mean Squared Error (MSE)        : {metrics['MSE']}")
+print(f"Root Mean Squared Error (RMSE)  : {metrics['RMSE']}")
+print(f"Mean Absolute Error (MAE)       : {metrics['MAE']}")
+print(f"R-squared                       : {metrics['R2']}")
+```
+
+::: {.callout-important}
+## Praesent Commodo
+Cursus magna vel scelerisque nisl consectetur et. Donec sed odio dui. Nulla
+vitae elit libero, a pharetra augue.
+:::
+
+## Aggregated Results
+
+_Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac,
+vestibulum at eros. Predictions are averaged per zone on the log scale, then
+converted back so both scales are available:_
+
+```{python}
+#| label: results-table
+#| code-summary: "Show the aggregated results"
+
+results.head(15)
+```
+
+_Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+vestibulum. Continue to [Report 3](report-3.qmd)._

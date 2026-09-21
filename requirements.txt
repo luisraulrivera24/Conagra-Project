@@ -1,0 +1,10 @@
+# Required
+pandas
+numpy
+scikit-learn
+jupyter
+
+# Optional - template falls back gracefully if absent
+xgboost
+folium
+matplotlib
