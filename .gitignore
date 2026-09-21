@@ -3,3 +3,5 @@ _site/
 _freeze/
 __pycache__/
 .ipynb_checkpoints/
+
+/.quarto/
