@@ -1,0 +1,272 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lorem Ipsum Analytica",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n\n\n\n\n\nNota Bene\n\n\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#praesent-commodo",
+    "href": "index.html#praesent-commodo",
+    "title": "Lorem Ipsum Analytica",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n\n\n\n\n\nNota Bene\n\n\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#curabitur-blandit",
+    "href": "index.html#curabitur-blandit",
+    "title": "Lorem Ipsum Analytica",
+    "section": "Curabitur Blandit",
+    "text": "Curabitur Blandit\n\n\nReport 1\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.\n\n\nReport 2\nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores.\n\n\nReport 3\nNeque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#integer-posuere",
+    "href": "index.html#integer-posuere",
+    "title": "Lorem Ipsum Analytica",
+    "section": "Integer Posuere",
+    "text": "Integer Posuere\nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur (Nescio 2020). At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint (Incognita 2021).\n\n\nShow the environment check\n# Confirms the shared engine imports and reports which optional\n# packages are active. Handy first stop when a render misbehaves.\nimport _common as C\n\nprint(f\"Optional packages\")\nprint(f\"  xgboost     : {'installed' if C.HAS_XGBOOST else 'absent (using scikit-learn)'}\")\nprint(f\"  folium      : {'installed' if C.HAS_FOLIUM else 'absent (using matplotlib)'}\")\nprint(f\"  matplotlib  : {'installed' if C.HAS_MATPLOTLIB else 'absent'}\")\nprint(f\"\\nAll data is generated in-process. No files or network required.\")\n\n\nOptional packages\n  xgboost     : installed\n  folium      : installed\n  matplotlib  : installed\n\nAll data is generated in-process. No files or network required.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#aliquam-erat",
+    "href": "index.html#aliquam-erat",
+    "title": "Lorem Ipsum Analytica",
+    "section": "Aliquam Erat",
+    "text": "Aliquam Erat\nEt harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "report-3.html",
+    "href": "report-3.html",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "",
+    "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus (Reprehenderit 2023).",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-3.html#abstract",
+    "href": "report-3.html#abstract",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "",
+    "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus (Reprehenderit 2023).",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-3.html#tabbed-panels",
+    "href": "report-3.html#tabbed-panels",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "Tabbed Panels",
+    "text": "Tabbed Panels\n\nLoremIpsumDolor\n\n\n\n\nShow the code\nraw.head(8)\n\n\n\n\n\n\n\n\n\nzone_code\nmetric_a\nmetric_b\ncount_a\ncount_b\ncategory\nvalue\n\n\n\n\n0\nZ1005\n960.0\n5924.5\n3\n2\ngamma\n175731.96\n\n\n1\nZ1046\n515.0\n4053.5\n1\n1\nalpha\n28576.67\n\n\n2\nZ1039\n1483.0\n5905.2\n2\n1\nalpha\n63226.93\n\n\n3\nZ1026\n1512.0\n4480.9\n6\n6\nepsilon\n381370.56\n\n\n4\nZ1025\n1369.0\n4774.6\n4\n3\ngamma\n126606.49\n\n\n5\nZ1051\n2574.0\n9130.0\n6\n5\nalpha\n314716.95\n\n\n6\nZ1005\n2706.0\n13134.9\n6\n5\nalpha\n314143.91\n\n\n7\nZ1041\n1523.0\n6007.8\n1\n1\nzeta\n97360.61\n\n\n\n\n\n\n\n\n\n\n\nShow the code\nraw.groupby(\"category\")[\"value\"].describe().round(1)\n\n\n\n\n\n\n\n\n\ncount\nmean\nstd\nmin\n25%\n50%\n75%\nmax\n\n\ncategory\n\n\n\n\n\n\n\n\n\n\n\n\nalpha\n1055.0\n172172.5\n103898.0\n25102.6\n100213.6\n148774.8\n217968.7\n827616.7\n\n\nbeta\n651.0\n140997.5\n95562.5\n24260.3\n76716.3\n121644.2\n179349.2\n1151088.7\n\n\ndelta\n352.0\n122932.3\n72691.7\n23444.0\n73316.4\n102136.3\n151966.2\n443720.3\n\n\nepsilon\n248.0\n219526.0\n138718.5\n36968.2\n119492.2\n174042.4\n280235.5\n898274.5\n\n\ngamma\n491.0\n191839.2\n113741.4\n37236.1\n113414.4\n168015.3\n236578.7\n885466.9\n\n\nzeta\n203.0\n162171.1\n108946.8\n21615.0\n90861.6\n138825.4\n197124.3\n746420.8\n\n\n\n\n\n\n\n\n\n\n\nShow the code\nresults.sort_values(\"avg_actual\", ascending=False).head(8)\n\n\n\n\n\n\n\n\n\nzone_code\navg_prediction_log\navg_actual_log\navg_prediction\navg_actual\n\n\n\n\n48\nZ1048\n12.697\n12.977\n326677.437500\n432484.76\n\n\n16\nZ1016\n12.602\n12.971\n297077.406250\n429681.53\n\n\n19\nZ1019\n12.401\n12.562\n243001.359375\n285473.25\n\n\n57\nZ1057\n12.260\n12.483\n211083.859375\n263825.87\n\n\n11\nZ1011\n12.248\n12.460\n208640.953125\n257913.28\n\n\n0\nZ1000\n12.410\n12.436\n245187.687500\n251630.21\n\n\n42\nZ1042\n12.300\n12.422\n219782.843750\n248221.04\n\n\n24\nZ1024\n12.223\n12.417\n203391.093750\n246930.99",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-3.html#figures",
+    "href": "report-3.html#figures",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "Figures",
+    "text": "Figures\nInteger posuere erat a ante venenatis dapibus posuere velit aliquet. See Figure 1 below.\n\n\n\n\nShow the plotting code\nif C.HAS_MATPLOTLIB:\n    import matplotlib.pyplot as plt\n    fig, axes = plt.subplots(1, 2, figsize=(10, 4))\n    axes[0].hist(raw[\"value\"], bins=40, color=\"#4c72b0\", edgecolor=\"white\")\n    axes[0].set_title(\"Raw scale\")\n    axes[1].hist(np.log1p(raw[\"value\"]), bins=40, color=\"#dd8452\", edgecolor=\"white\")\n    axes[1].set_title(\"Log scale\")\n    for ax in axes:\n        ax.set_ylabel(\"Count\")\n    fig.tight_layout()\n    fig\nelse:\n    print(\"Install matplotlib to render this figure.\")\n\n\n\nFigure 1",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-3.html#callouts",
+    "href": "report-3.html#callouts",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "Callouts",
+    "text": "Callouts\n\n\n\n\n\n\nExpandable Note\n\n\n\n\n\nDonec ullamcorper nulla non metus auctor fringilla.\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nMaecenas sed diam eget risus varius blandit sit amet non magna.",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-3.html#side-margin-content",
+    "href": "report-3.html#side-margin-content",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "Side Margin Content",
+    "text": "Side Margin Content\nFusce dapibus tellus ac cursus commodo.1\n\n\nCras mattis consectetur purus sit amet fermentum.\nAenean lacinia bibendum nulla sed consectetur. Return to Home.",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-3.html#references",
+    "href": "report-3.html#references",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "References",
+    "text": "References\n\n\nReprehenderit, Duis A. 2023. “Voluptate Velit Esse Cillum Dolore.” In Proceedings of Fugiat Nulla Pariatur, 44–57.",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-3.html#footnotes",
+    "href": "report-3.html#footnotes",
+    "title": "Report 3: Condimentum Feature Showcase",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nNulla vitae elit libero, a pharetra augue.↩︎",
+    "crumbs": [
+      "Reports",
+      "Report 3"
+    ]
+  },
+  {
+    "objectID": "report-1.html",
+    "href": "report-1.html",
+    "title": "Report 1: Fermentum Tincidunt Analysis",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.",
+    "crumbs": [
+      "Reports",
+      "Report 1"
+    ]
+  },
+  {
+    "objectID": "report-1.html#abstract",
+    "href": "report-1.html#abstract",
+    "title": "Report 1: Fermentum Tincidunt Analysis",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.",
+    "crumbs": [
+      "Reports",
+      "Report 1"
+    ]
+  },
+  {
+    "objectID": "report-1.html#vestibulum-rutrum",
+    "href": "report-1.html#vestibulum-rutrum",
+    "title": "Report 1: Fermentum Tincidunt Analysis",
+    "section": "Vestibulum Rutrum",
+    "text": "Vestibulum Rutrum\nQuis nostrud exercitation ullamco laboris nisi?\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo (Nescio 2020). Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit (Incognita 2021). Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.\nTemporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Here are the attributes carried by the working dataset:\n\nzone_code — dolor sit amet\nmetric_a — consectetur adipiscing\nmetric_b — sed do eiusmod\ncount_a — tempor incididunt\ncount_b — ut labore et dolore\ncategory — magna aliqua enim\nvalue — ad minim veniam quis",
+    "crumbs": [
+      "Reports",
+      "Report 1"
+    ]
+  },
+  {
+    "objectID": "report-1.html#nullam-quis-risus",
+    "href": "report-1.html#nullam-quis-risus",
+    "title": "Report 1: Fermentum Tincidunt Analysis",
+    "section": "Nullam Quis Risus",
+    "text": "Nullam Quis Risus\nItaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sample of the generated data below:\n\n\nShow the data generation\nimport pandas as pd\nimport numpy as np\nimport _common as C\n\n# Generated in-process from a fixed seed -- no CSV, no download.\n# Swap this line for pd.read_csv(\"your_file.csv\") to use real data.\nraw = C.make_records()\n\nraw.head(10)\n\n\n\n\n\n\n\n\n\nzone_code\nmetric_a\nmetric_b\ncount_a\ncount_b\ncategory\nvalue\n\n\n\n\n0\nZ1005\n960.0\n5924.5\n3\n2\ngamma\n175731.96\n\n\n1\nZ1046\n515.0\n4053.5\n1\n1\nalpha\n28576.67\n\n\n2\nZ1039\n1483.0\n5905.2\n2\n1\nalpha\n63226.93\n\n\n3\nZ1026\n1512.0\n4480.9\n6\n6\nepsilon\n381370.56\n\n\n4\nZ1025\n1369.0\n4774.6\n4\n3\ngamma\n126606.49\n\n\n5\nZ1051\n2574.0\n9130.0\n6\n5\nalpha\n314716.95\n\n\n6\nZ1005\n2706.0\n13134.9\n6\n5\nalpha\n314143.91\n\n\n7\nZ1041\n1523.0\n6007.8\n1\n1\nzeta\n97360.61\n\n\n8\nZ1012\n667.0\n2357.5\n3\n3\ngamma\n106631.13\n\n\n9\nZ1005\n2120.0\n13491.3\n6\n5\ngamma\n270710.23",
+    "crumbs": [
+      "Reports",
+      "Report 1"
+    ]
+  },
+  {
+    "objectID": "report-1.html#donec-ullamcorper",
+    "href": "report-1.html#donec-ullamcorper",
+    "title": "Report 1: Fermentum Tincidunt Analysis",
+    "section": "Donec Ullamcorper",
+    "text": "Donec Ullamcorper\nNulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Summary statistics follow:\n\n\nShow the summary statistics\nraw.describe().round(2)\n\n\n\n\n\n\n\n\n\nmetric_a\nmetric_b\ncount_a\ncount_b\nvalue\n\n\n\n\ncount\n3000.00\n2910.00\n3000.00\n3000.00\n3000.00\n\n\nmean\n1777.35\n9217.27\n3.52\n2.75\n166086.59\n\n\nstd\n788.94\n5883.26\n1.70\n1.60\n107720.42\n\n\nmin\n452.00\n994.60\n1.00\n1.00\n21614.96\n\n\n25%\n1223.00\n4849.35\n2.00\n1.00\n91354.58\n\n\n50%\n1631.00\n8040.35\n4.00\n3.00\n141855.98\n\n\n75%\n2140.25\n12225.22\n5.00\n4.00\n209861.77\n\n\nmax\n6979.00\n56482.60\n6.00\n6.00\n1151088.68\n\n\n\n\n\n\n\n\n\nShow the category breakdown\nbreakdown = (\n    raw.groupby(\"category\")\n       .agg(n=(\"value\", \"size\"),\n            mean_value=(\"value\", \"mean\"),\n            median_value=(\"value\", \"median\"))\n       .round(2)\n       .sort_values(\"n\", ascending=False)\n       .reset_index()\n)\nbreakdown\n\n\n\n\n\n\n\n\n\ncategory\nn\nmean_value\nmedian_value\n\n\n\n\n0\nalpha\n1055\n172172.50\n148774.76\n\n\n1\nbeta\n651\n140997.55\n121644.18\n\n\n2\ngamma\n491\n191839.20\n168015.28\n\n\n3\ndelta\n352\n122932.30\n102136.26\n\n\n4\nepsilon\n248\n219525.95\n174042.44\n\n\n5\nzeta\n203\n162171.10\n138825.43",
+    "crumbs": [
+      "Reports",
+      "Report 1"
+    ]
+  },
+  {
+    "objectID": "report-1.html#aenean-lacinia",
+    "href": "report-1.html#aenean-lacinia",
+    "title": "Report 1: Fermentum Tincidunt Analysis",
+    "section": "Aenean Lacinia",
+    "text": "Aenean Lacinia\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. The target variable is transformed as follows (where x is the raw value):\n\\[\n\\text{target} = \\log\\left(1 + x\\right)\n\\]\nVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. The transformation compresses the upper tail, which keeps downstream colour scales legible:\n\n\nShow the transformation\ncomparison = pd.DataFrame({\n    \"raw_value\": raw[\"value\"],\n    \"log_value\": np.log1p(raw[\"value\"]).round(4),\n})\ncomparison.describe().round(2)\n\n\n\n\n\n\n\n\n\nraw_value\nlog_value\n\n\n\n\ncount\n3000.00\n3000.00\n\n\nmean\n166086.59\n11.84\n\n\nstd\n107720.42\n0.61\n\n\nmin\n21614.96\n9.98\n\n\n25%\n91354.58\n11.42\n\n\n50%\n141855.98\n11.86\n\n\n75%\n209861.77\n12.25\n\n\nmax\n1151088.68\n13.96\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuspendisse Potenti\n\n\n\nEtiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.\n\n\nCurabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Continue to Report 2.",
+    "crumbs": [
+      "Reports",
+      "Report 1"
+    ]
+  },
+  {
+    "objectID": "report-2.html",
+    "href": "report-2.html",
+    "title": "Report 2: Gravida Euismod Modelling",
+    "section": "",
+    "text": "Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam (Exercitation 2022). Nullam quis risus eget urna mollis ornare vel eu leo.\n\n\nShow the map code\n# Side-by-side predicted vs actual. Uses folium when available and falls\n# back to a static matplotlib rendering when it is not.\nC.dual_map(results, geojson)\n\n\n\n        \n          \n            Make this Notebook Trusted to load map: File -&gt; Trust Notebook\n          \n          \n            Make this Notebook Trusted to load map: File -&gt; Trust Notebook",
+    "crumbs": [
+      "Reports",
+      "Report 2"
+    ]
+  },
+  {
+    "objectID": "report-2.html#abstract",
+    "href": "report-2.html#abstract",
+    "title": "Report 2: Gravida Euismod Modelling",
+    "section": "",
+    "text": "Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam (Exercitation 2022). Nullam quis risus eget urna mollis ornare vel eu leo.\n\n\nShow the map code\n# Side-by-side predicted vs actual. Uses folium when available and falls\n# back to a static matplotlib rendering when it is not.\nC.dual_map(results, geojson)\n\n\n\n        \n          \n            Make this Notebook Trusted to load map: File -&gt; Trust Notebook\n          \n          \n            Make this Notebook Trusted to load map: File -&gt; Trust Notebook",
+    "crumbs": [
+      "Reports",
+      "Report 2"
+    ]
+  },
+  {
+    "objectID": "report-2.html#fusce-dapibus",
+    "href": "report-2.html#fusce-dapibus",
+    "title": "Report 2: Gravida Euismod Modelling",
+    "section": "Fusce Dapibus",
+    "text": "Fusce Dapibus\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Geographic descriptors are derived before the geometry is discarded, since the model consumes numeric features only:\n\n\nShow the prepared frame\nframe.head(10)\n\n\n\n\n\n\n\n\n\nzone_code\nmetric_a\nmetric_b\ncount_a\ncount_b\nvalue\nzone_centroid_lon\nzone_centroid_lat\ncategory_alpha\ncategory_beta\ncategory_delta\ncategory_epsilon\ncategory_gamma\ncategory_zeta\n\n\n\n\n0\nZ1005\n960.0\n5924.5\n3\n2\n175731.96\n-98.5\n26.833333\n0\n0\n0\n0\n1\n0\n\n\n1\nZ1046\n515.0\n4053.5\n1\n1\n28576.67\n-97.5\n33.500000\n1\n0\n0\n0\n0\n0\n\n\n2\nZ1039\n1483.0\n5905.2\n2\n1\n63226.93\n-94.5\n31.833333\n1\n0\n0\n0\n0\n0\n\n\n3\nZ1026\n1512.0\n4480.9\n6\n6\n381370.56\n-97.5\n30.166667\n0\n0\n0\n1\n0\n0\n\n\n4\nZ1025\n1369.0\n4774.6\n4\n3\n126606.49\n-98.5\n30.166667\n0\n0\n0\n0\n1\n0\n\n\n5\nZ1051\n2574.0\n9130.0\n6\n5\n314716.95\n-102.5\n35.166667\n1\n0\n0\n0\n0\n0\n\n\n6\nZ1005\n2706.0\n13134.9\n6\n5\n314143.91\n-98.5\n26.833333\n1\n0\n0\n0\n0\n0\n\n\n7\nZ1041\n1523.0\n6007.8\n1\n1\n97360.61\n-102.5\n33.500000\n0\n0\n0\n0\n0\n1\n\n\n8\nZ1012\n667.0\n2357.5\n3\n3\n106631.13\n-101.5\n28.500000\n0\n0\n0\n0\n1\n0\n\n\n9\nZ1005\n2120.0\n13491.3\n6\n5\n270710.23\n-98.5\n26.833333\n0\n0\n0\n0\n1\n0",
+    "crumbs": [
+      "Reports",
+      "Report 2"
+    ]
+  },
+  {
+    "objectID": "report-2.html#etiam-porta",
+    "href": "report-2.html#etiam-porta",
+    "title": "Report 2: Gravida Euismod Modelling",
+    "section": "Etiam Porta",
+    "text": "Etiam Porta\nDonec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. The split reserves twenty percent for evaluation, with a fixed random state so the run reproduces exactly:\n\n\nShow the feature matrix\nprint(\"Feature matrix sample:\")\nfit[\"X\"].drop(columns=[\"zone_code\"]).head(10)\n\n\nFeature matrix sample:\n\n\n\n\n\n\n\n\n\nmetric_a\nmetric_b\ncount_a\ncount_b\nzone_centroid_lon\nzone_centroid_lat\ncategory_alpha\ncategory_beta\ncategory_delta\ncategory_epsilon\ncategory_gamma\ncategory_zeta\n\n\n\n\n0\n960.0\n5924.5\n3\n2\n-98.5\n26.833333\n0\n0\n0\n0\n1\n0\n\n\n1\n515.0\n4053.5\n1\n1\n-97.5\n33.500000\n1\n0\n0\n0\n0\n0\n\n\n2\n1483.0\n5905.2\n2\n1\n-94.5\n31.833333\n1\n0\n0\n0\n0\n0\n\n\n3\n1512.0\n4480.9\n6\n6\n-97.5\n30.166667\n0\n0\n0\n1\n0\n0\n\n\n4\n1369.0\n4774.6\n4\n3\n-98.5\n30.166667\n0\n0\n0\n0\n1\n0\n\n\n5\n2574.0\n9130.0\n6\n5\n-102.5\n35.166667\n1\n0\n0\n0\n0\n0\n\n\n6\n2706.0\n13134.9\n6\n5\n-98.5\n26.833333\n1\n0\n0\n0\n0\n0\n\n\n7\n1523.0\n6007.8\n1\n1\n-102.5\n33.500000\n0\n0\n0\n0\n0\n1\n\n\n8\n667.0\n2357.5\n3\n3\n-101.5\n28.500000\n0\n0\n0\n0\n1\n0\n\n\n9\n2120.0\n13491.3\n6\n5\n-98.5\n26.833333\n0\n0\n0\n0\n1\n0\n\n\n\n\n\n\n\n\n\nShow the target variable\nprint(\"Target variable sample (log scale):\")\nfit[\"y\"].head(10)\n\n\nTarget variable sample (log scale):\n\n\n0    12.076721\n1    10.260381\n2    11.054501\n3    12.851529\n4    11.748847\n5    12.659432\n6    12.657610\n7    11.486187\n8    11.577140\n9    12.508808\nName: value, dtype: float64",
+    "crumbs": [
+      "Reports",
+      "Report 2"
+    ]
+  },
+  {
+    "objectID": "report-2.html#nulla-vitae",
+    "href": "report-2.html#nulla-vitae",
+    "title": "Report 2: Gravida Euismod Modelling",
+    "section": "Nulla Vitae",
+    "text": "Nulla Vitae\nVestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Let us walk the evaluation metrics.\nMean Squared Error averages the squared gaps between predicted and observed values, which makes it sensitive to outliers:\n\\[\n\\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2\n\\]\nRoot Mean Squared Error returns those units to the scale of the target:\n\\[\n\\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2}\n\\]\nMean Absolute Error averages the magnitude of the error while ignoring its direction:\n\\[\n\\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} \\left| y_i - \\hat{y}_i \\right|\n\\]\nAnd the coefficient of determination reports the share of variance in the target explained by the features, bounded at one:\n\\[\nR^2 = 1 - \\frac{\\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2}{\\sum_{i=1}^{n} (y_i - \\bar{y})^2}\n\\]\nCras mattis consectetur purus sit amet fermentum. Results below are printed from the fitted object rather than typed into the prose, so the narrative can never drift out of step with the numbers:\n\n\nShow the metrics\nprint(f\"Engine used                     : {fit['engine']}\")\nprint(f\"Mean Squared Error (MSE)        : {metrics['MSE']}\")\nprint(f\"Root Mean Squared Error (RMSE)  : {metrics['RMSE']}\")\nprint(f\"Mean Absolute Error (MAE)       : {metrics['MAE']}\")\nprint(f\"R-squared                       : {metrics['R2']}\")\n\n\nEngine used                     : XGBoost\nMean Squared Error (MSE)        : 0.06\nRoot Mean Squared Error (RMSE)  : 0.24\nMean Absolute Error (MAE)       : 0.19\nR-squared                       : 0.83\n\n\n\n\n\n\n\n\nPraesent Commodo\n\n\n\nCursus magna vel scelerisque nisl consectetur et. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+    "crumbs": [
+      "Reports",
+      "Report 2"
+    ]
+  },
+  {
+    "objectID": "report-2.html#aggregated-results",
+    "href": "report-2.html#aggregated-results",
+    "title": "Report 2: Gravida Euismod Modelling",
+    "section": "Aggregated Results",
+    "text": "Aggregated Results\nMaecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Predictions are averaged per zone on the log scale, then converted back so both scales are available:\n\n\nShow the aggregated results\nresults.head(15)\n\n\n\n\n\n\n\n\n\nzone_code\navg_prediction_log\navg_actual_log\navg_prediction\navg_actual\n\n\n\n\n0\nZ1000\n12.410\n12.436\n245187.687500\n251630.21\n\n\n1\nZ1001\n11.681\n11.518\n118302.468750\n100524.19\n\n\n2\nZ1002\n11.524\n11.538\n101100.773438\n102502.77\n\n\n3\nZ1003\n11.793\n11.948\n132331.343750\n154571.72\n\n\n4\nZ1004\n12.164\n12.258\n191823.312500\n210622.33\n\n\n5\nZ1005\n11.857\n11.986\n141004.484375\n160427.61\n\n\n6\nZ1006\n11.541\n11.366\n102886.296875\n86308.07\n\n\n7\nZ1007\n11.269\n11.250\n78330.382812\n76898.34\n\n\n8\nZ1008\n11.505\n11.363\n99234.007812\n86079.60\n\n\n9\nZ1009\n11.440\n11.282\n92946.117188\n79375.75\n\n\n10\nZ1010\n11.906\n11.877\n148160.093750\n143883.48\n\n\n11\nZ1011\n12.248\n12.460\n208640.953125\n257913.28\n\n\n12\nZ1012\n11.891\n11.816\n145900.781250\n135467.96\n\n\n13\nZ1013\n11.329\n10.874\n83170.023438\n52782.77\n\n\n14\nZ1014\n12.092\n11.979\n178417.906250\n159398.68\n\n\n\n\n\n\n\nAenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Continue to Report 3.",
+    "crumbs": [
+      "Reports",
+      "Report 2"
+    ]
+  }
+]
